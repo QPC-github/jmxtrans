@@ -1,0 +1,9 @@
+jmxtrans (0-shopify1) unstable; urgency=low
+
+  [ Jon Stevens ]
+  * See http://jmxtrans.googlecode.com/ for more details.
+
+  [ Adrian Irving-Beer ]
+  * Dummy changelog for build.
+
+ -- Adrian Irving-Beer <adrian@shopify.com>  Fri, 04 Oct 2013 14:56:37 -0400

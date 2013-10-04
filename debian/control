@@ -1,13 +1,13 @@
-Source: @PACKAGE@
-Build-Depends: debhelper (>= 7)
+Source: jmxtrans
+Build-Depends: debhelper (>= 7), default-jdk, ant
 Maintainer: Jon Stevens <latchkey@gmail.com>
 Standards-Version: 3.9.1
 
-Package: @PACKAGE@
+Package: jmxtrans
 Architecture: all
 Section: admin
 Priority: optional
 Depends: ${misc:Depends}, java2-runtime
 Recommends: python-yaml
 Description: @FULL_VERSION@ - @PACKAGE@
- dependency package, installs @PACKAGE@
+ See http://jmxtrans.googlecode.com/ for more details.
