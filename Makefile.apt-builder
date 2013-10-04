@@ -1,4 +1,4 @@
-VERSION=${shell head -1 debian.apt-builder/changelog | cut -d'(' -f2 | cut -d'-' -f1}
+VERSION=${shell head -1 debian.apt-builder/changelog | cut -d'(' -f2 | cut -d')' -f1}
 
 apt-builder-fetch:
 	ln -nsf debian.apt-builder debian
