@@ -1,0 +1,4 @@
+Source: jmxtrans
+Build-Depends: debhelper (>= 7), ant
+Maintainer: Adrian Irving-Beer <adrian@shopify.com>
+Standards-Version: 3.9.1
